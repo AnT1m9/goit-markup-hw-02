@@ -37,6 +37,7 @@ a{
     font-weight: 400;
     line-height: 1.5;
     color:#434455 ;
+    cursor: pointer;
 }
 .web{
     font-family: 'Raleway', sans-serif;
