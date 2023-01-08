@@ -31,7 +31,7 @@ a:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--dark);
-    background: var(--white);
+    
 }
 .text{ 
     font-family: var(--main-font);
@@ -39,13 +39,14 @@ a:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--text);
-    background: var(--white);
+    
 }
 .body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color:var(--text);
+    background: var(--white); 
     cursor: pointer;
 }
 .web{
@@ -82,29 +83,29 @@ a:focus{
 .header-list:focus {
     color: var(--primary-brand);
 }
-.header-contact {
+.header-contact a{
     font-family: var(--main-font);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--text);
 }
-.header-contact:hover{
+.header-contact a:hover{
     color:var(--primary-brand);
 }
-.header-contact:focus{
+.header-contact a:focus{
     color:var(--primary-brand);
 }
 .header-item {
 }
 
-.header-item{
+.header-link{
     color:var(--dark);
 }
-.header-item:hover {
+.header-link:hover {
 color:var(--text);
 }
-.header-item:focus{
+.header-link:focus{
     color:var(--primary-brand);
 }
 .header-logo {
