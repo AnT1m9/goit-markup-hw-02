@@ -12,20 +12,20 @@
     --light:#F4F4FD;
     --white: #FFFFFF;
 }
-li{
+li {
     list-style-type: none;
 }
-a{
+a {
     color:var(--dark);
     text-decoration: none;
 }
-a:hover{
+a:hover {
     color:var(--text);
 }
-a:focus{
+a:focus {
     color:var(--primary-brand);
 }
-.body{
+.body {
     font-family: var(--main-font);
     font-weight: 400;
     line-height: 1.5;
@@ -33,7 +33,7 @@ a:focus{
     background: var(--white); 
     cursor: pointer;
 }
-.web{
+.web {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -43,7 +43,7 @@ a:focus{
     text-transform: uppercase;
     color: var(--primary-brand);
 }
-.studio{
+.studio {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -67,7 +67,7 @@ a:focus{
 .header-list:focus {
     color: var(--primary-brand);
 }
-.header-contact a{
+.header-contact a {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
@@ -75,19 +75,19 @@ a:focus{
     letter-spacing: 0.02em;
     color:var(--text);
 }
-.header-contact a:hover{
+.header-contact a:hover {
     color:var(--primary-brand);
 }
-.header-contact a:focus{
+.header-contact a:focus {
     color:var(--primary-brand);
 }
-.header-link{
+.header-link {
     color:var(--dark);
 }
 .header-link:hover {
     color:var(--text);
 }
-.header-link:focus{
+.header-link:focus {
     color:var(--primary-brand);
 }
 .footer {
@@ -140,7 +140,9 @@ a:focus{
     clip-path: inset(50%);
     margin: -1px;
 }
-.primary {
+.button-list{
+}
+.button-primary{
     font-family: var(--main-font);
     font-size: 16px ;
     font-weight: 700;
@@ -151,39 +153,43 @@ a:focus{
     border: 1px solid var(--accent);
     border-radius: 4px;
 }
-.primary:hover {
-    color: var(--white);
-    background-color: var(--primary-brand);
-}
-.primary:focus {
-    color: var(--white);
+.button-primary:hover {
+    color:var(--white);
     background-color:var(--primary-brand);
 }
-.secondary {
-    font-family: var(--main-font);
-    font-size: 16px ;
-    font-weight: 700;
-    line-height: 1.5;
-    color: var(--primary-brand);
+.button-primary:focus {
+    color:var(--white);
+    background-color:var(--primary-brand);
+}
+.button-secondary{
+    font-family:var(--main-font);
+    font-size:16px ;
+    font-weight:700;
+    line-height:1.5;
+    color:var(--primary-brand);
     background-color:var(--light);
-    cursor: pointer;
-    border: 1px solid var(--accent);
+    cursor:pointer;
+    border:1px solid var(--accent);
     border-radius: 4px;
 }
-.secondary:hover {
-    color:var(--light); ;
+.button-secondary:hover {
+    color:var(--light);
     background-color:var(--primary-brand);
 }
-.secondary:focus {
-    color: var(--primary-brand);
-    background-color: var(--light);
+.button-secondary:focus {
+    color:var(--primary-brand);
+    background-color:var(--light);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.section-solutions {
+.section-solutions{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1.07;
     letter-spacing: 0.04em; 
     color: var(--white); 
     background: var(--dark); 
 }
-.solution-text {
+.solutions-text {
     font-family:var(--main-font);
     font-weight: 700;
     font-size: 56px;
@@ -192,7 +198,7 @@ a:focus{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-.effective-button {
+.effective-button{
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
@@ -205,11 +211,11 @@ a:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;     
 }
-.effective-button:hover{
+.effective-button:hover {
     background: var(--primary-brand);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.effective-button:focus{
+.effective-button:focus {
     background: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -218,7 +224,7 @@ a:focus{
 .solutions-item {
     background-color: var(--white);
 }
-.item-hard header-style{
+.item-hard{
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 20px;
@@ -226,7 +232,7 @@ a:focus{
     letter-spacing: 0.02em;
     color: var(--dark);
 }
-.hard-text{ 
+.hard-text { 
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
@@ -234,7 +240,7 @@ a:focus{
     letter-spacing: 0.02em;
     color:var(--text);
 }
-.header-style{
+.header-style {
     font-family:var(--main-font);
     font-weight: 700;
     font-size: 36px;
@@ -264,17 +270,19 @@ a:focus{
     line-height: 1.2; 
     color:var(--dark);
 }
-.card-text{
+.card-text {
     font-family:var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height:1.5;
     color:var(--text);
 }
-.portfolio{
-    background:var(--white);
+.portfolio {
 }
-.portfolio-item{
+.portfolio-list {
+    background-color:var(--white);
+}
+.portfolio-item {
     background-color:var(--white);
 }
 .portfolio-name{
@@ -285,11 +293,10 @@ a:focus{
     letter-spacing: 0.02em;
     color:var(--dark);
 }
-.potrfolio-text{
+.potrfolio-text {
     font-family:var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color:var(--text);
 }
