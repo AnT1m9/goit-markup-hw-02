@@ -4,6 +4,7 @@
     --letter-spacing: 0.02em;
     --text-decoration: none;   
     --primary-brand:#4D5AE5;
+    --primary-focus:#4c53a3;
     --dark:#2E2F42;
     --succes:#31D0AA;
     --text:#434455;
@@ -25,6 +26,9 @@ a:hover {
 a:focus {
     color:var(--primary-brand);
 }
+
+/*-----BODY-----*/
+
 .body {
     font-family: var(--main-font);
     font-weight: 400;
@@ -90,6 +94,9 @@ a:focus {
 .header-link:focus {
     color:var(--primary-brand);
 }
+
+/*-----FOOTER-----*/
+
 .footer {
     font-family: var(--main-font);
     font-style: normal;
@@ -128,6 +135,8 @@ a:focus {
     color:var(--white);
 }
 
+/*-----Filters----*/
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -140,6 +149,9 @@ a:focus {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+/*------PORTFOLIO-BUTTON------*/
+
 .button-list{
     font-family: var(--main-font);
     font-size: 16px ;
@@ -182,9 +194,12 @@ a:focus {
     background-color:var(--primary-brand);
 }
 .button-secondary:focus {
-    color:var(--primary-brand);
-    background-color:var(--light);
+    color:var(--light);
+    background-color:var(--primary-focus);
 }
+
+/*-----SECTIONS-SOLUTIONS-----*/
+
 .section-solutions{
     font-family: var(--main-font);
     font-weight: 400;
@@ -225,6 +240,8 @@ a:focus {
 }
 .solutions-subtitle {
 }
+.solutions-list {
+}
 .solutions-item {
     background-color: var(--white);
 }
@@ -244,6 +261,9 @@ a:focus {
     letter-spacing: 0.02em;
     color:var(--text);
 }
+
+/*----WHAT ARE WE DOING----*/
+
 .header-style {
     font-family:var(--main-font);
     font-weight: 700;
@@ -255,6 +275,11 @@ a:focus {
     color:var(--dark);
     background: var(--light);
 }
+
+/*----TEAM----*/
+
+.section-card {
+}
 .header-team {
     font-family:var(--main-font);
     font-weight: 700;
@@ -262,6 +287,8 @@ a:focus {
     line-height:1.1;
     color:var(--dark);
     letter-spacing: 0.02em; 
+}
+.card-list {
 }
 .card-item {
     background: var(--white);  
@@ -281,6 +308,9 @@ a:focus {
     line-height:1.5;
     color:var(--text);
 }
+
+/*-----PORTFOLIO-----*/
+
 .portfolio {
 }
 .portfolio-list {
@@ -297,15 +327,15 @@ a:focus {
     letter-spacing: 0.02em;
     color:var(--dark);
 }
-p{
+/* p{
     font-family:var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--text);
-}
-.potrfolio-text {
+} */
+.portfolio-text {
     font-family:var(--main-font);
     font-weight: 400;
     font-size: 16px;

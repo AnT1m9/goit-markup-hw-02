@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="site-body">
     <header class="header">
         <a href="./index.html" class="header-logo">
             <span class="web">WEB</span>
@@ -29,62 +29,66 @@
             </ul>
     </header> 
     <main>
+        <h1 class="visually-hidden">Portfolio</h1>
+        <!--Filters-->
         <section class="portfolio"> 
-            <h1 class="visually-hidden">hero</h1>
-            <ul class="button-list">
-                <li><button class="button-primary" type="button">All</button></li>
-                <li><button class="button-secondary" type="button">Web Site</button></li>
-                <li><button class="button-secondary" type="button">App</button></li>
-                <li><button class="button-secondary" type="button">Design</button></li>
-                <li><button class="button-secondary" type="button">Marketing</button></li>
-            </ul>
-            <ul class="potrfolio-list">
-                <li class="portfolio-item">
-                    <img src="./images/bankingapp.jpg" alt="Banking app" width="360" height="300">
-                    <h2 class="portfolio-name" >Banking App Interfase Concept</h2>
-                    <p class="portfolio-text">App</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/payment.jpg" alt="Cashless payment" width="360" height="300">
-                    <h2 class="portfolio-name">Cashless Payment</h2>
-                    <p class="portfolio-text">Marketing</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/meditaionapp.jpg" alt="Meditaion app" width="360" height="300">
-                    <h2 class="portfolio-name">Meditaion App</h2>
-                    <p class="portfolio-text">App</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/taxiservice.jpg" alt="Taxi service" width="360" height="300">
-                    <h2 class="portfolio-name">Taxi Service</h2>
-                    <p class="portfolio-text">App</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/illustrations.jpg" alt="Screen illustrations" width="360" height="300">
-                    <h2 class="portfolio-name">Screen Illustrations</h2>
-                    <p class="portfolio-text">Design</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/onlinecourses.jpg" alt="Online courses" width="360" height="300">
-                    <h2 class="portfolio-name">Online Courses</h2>
-                    <p class="portfolio-text">Marketing</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/storiesconsept.jpg" alt="Stories concept" width="360" height="300">
-                    <h2 class="portfolio-name">Instagram Stories Concept</h2>
-                    <p class="portfolio-text">Design</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/organicfood.jpg" alt="Organic food" width="360" height="300">
-                    <h2 class="portfolio-name">Organic Food</h2>
-                    <p class="portfolio-text">Web Site</p>
-                </li>
-                <li class="portfolio-item">
-                    <img src="./images/coffee.jpg" alt="Coffee" width="360" height="300">
-                    <h2 class="portfolio-name">Fresh Coffee</h2>
-                    <p class="portfolio-text">Web Site</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="visually-hidden">Filters</h2>
+                <ul class="button-list">
+                    <li><button class="button-primary" type="button">All</button></li>
+                    <li><button class="button-secondary" type="button">Web Site</button></li>
+                    <li><button class="button-secondary" type="button">App</button></li>
+                    <li><button class="button-secondary" type="button">Design</button></li>
+                    <li><button class="button-secondary" type="button">Marketing</button></li>
+                </ul>
+                <ul class="potrfolio-list">
+                    <li class="portfolio-item">
+                        <img src="./images/bankingapp.jpg" alt="Banking app" width="360" height="300">
+                        <h2 class="portfolio-name" >Banking App Interfase Concept</h2>
+                        <p class="portfolio-text">App</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/payment.jpg" alt="Cashless payment" width="360" height="300">
+                        <h2 class="portfolio-name">Cashless Payment</h2>
+                        <p class="portfolio-text">Marketing</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/meditaionapp.jpg" alt="Meditaion app" width="360" height="300">
+                        <h2 class="portfolio-name">Meditaion App</h2>
+                        <p class="portfolio-text">App</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/taxiservice.jpg" alt="Taxi service" width="360" height="300">
+                        <h2 class="portfolio-name">Taxi Service</h2>
+                        <p class="portfolio-text">App</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/illustrations.jpg" alt="Screen illustrations" width="360" height="300">
+                        <h2 class="portfolio-name">Screen Illustrations</h2>
+                        <p class="portfolio-text">Design</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/onlinecourses.jpg" alt="Online courses" width="360" height="300">
+                        <h2 class="portfolio-name">Online Courses</h2>
+                        <p class="portfolio-text">Marketing</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/storiesconsept.jpg" alt="Stories concept" width="360" height="300">
+                        <h2 class="portfolio-name">Instagram Stories Concept</h2>
+                        <p class="portfolio-text">Design</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/organicfood.jpg" alt="Organic food" width="360" height="300">
+                        <h2 class="portfolio-name">Organic Food</h2>
+                        <p class="portfolio-text">Web Site</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="./images/coffee.jpg" alt="Coffee" width="360" height="300">
+                        <h2 class="portfolio-name">Fresh Coffee</h2>
+                        <p class="portfolio-text">Web Site</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
